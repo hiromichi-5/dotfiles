@@ -8,7 +8,10 @@
   nix.enable = false;
   programs.zsh.enable = true;
 
+  users.users."hiromichi".home = "/Users/hiromichi";
+
   imports = [
     ./system.nix
+    ./home_manager.nix
   ];
 }
