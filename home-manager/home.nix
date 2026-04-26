@@ -34,6 +34,7 @@
     # (pkgs.writeShellScriptBin "my-hello" ''
     #   echo "Hello, ${config.home.username}!"
     # '')
+    pkgs.git
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
@@ -49,6 +50,7 @@
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
+    ".gitconfig".source = ./git/.gitconfig;
   };
 
   # Home Manager can also manage your environment variables through
