@@ -14,6 +14,7 @@
     };
     # Dock
     dock = {
+      autohide = true; # Dockを自動非表示
       show-recents = false; # 最近使ったアプリを非表示
     };
   };
