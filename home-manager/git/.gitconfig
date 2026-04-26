@@ -3,3 +3,5 @@
         email = 137396801+hiromichi-5@users.noreply.github.com
 [init]
         defaultBranch = main
+[core]
+	editor = vim
