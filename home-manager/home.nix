@@ -11,8 +11,9 @@
 
   home.packages = with pkgs; [
     git
+    nodejs
+    pnpm
   ];
-
 
   home.file = {
     ".gitconfig".source = ./git/.gitconfig;
