@@ -6,7 +6,10 @@
   system.stateVersion = 6;
   system.primaryUser = "hiromichi";
   nix.enable = false;
-  programs.zsh.enable = true;
+  programs.zsh = {
+    enable = true;
+    enableCompletion = false;
+  };
 
   users.users."hiromichi".home = "/Users/hiromichi";
 
