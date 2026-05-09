@@ -13,6 +13,7 @@
     git
     nodejs
     pnpm
+    ghostty-bin
   ];
 
   home.file = {
