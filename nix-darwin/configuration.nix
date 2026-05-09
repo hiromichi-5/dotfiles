@@ -16,5 +16,6 @@
   imports = [
     ./system.nix
     ./home_manager.nix
+    ./homebrew.nix
   ];
 }
