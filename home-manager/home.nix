@@ -18,6 +18,7 @@
 
   home.file = {
     ".gitconfig".source = ./git/.gitconfig;
+    ".config/ghostty/config".source = ./ghostty/config;
   };
 
   programs.home-manager.enable = true;
