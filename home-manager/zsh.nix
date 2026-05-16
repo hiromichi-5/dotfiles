@@ -6,5 +6,6 @@
     syntaxHighlighting.enable = true;
 
     initContent = builtins.readFile ./zsh/zshrc;
+    profileExtra = builtins.readFile ./zsh/zprofile;
   };
 }
